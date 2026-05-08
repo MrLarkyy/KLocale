@@ -25,7 +25,7 @@ dependencies {
     implementation(project(":Common"))
     api("gg.aquatic:Common:26.0.16")
 
-    api("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
+    api("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0")
     compileOnly("net.kyori:adventure-text-serializer-plain:4.26.1")
 
     jmh("org.openjdk.jmh:jmh-core:1.37")
